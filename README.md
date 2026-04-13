@@ -31,5 +31,3 @@ The notebook shows that even when two single models are already strong, their co
 ## Results
 
 Both ConvNeXt Tiny and ConvNeXt Small performed strongly as individual models under 3-fold cross-validation. Stronger test-time augmentation improved both of them further. The largest gain came from blending the Tiny and Small model families, which outperformed either single model alone. Stacking also helped, although the best simple blend remained extremely competitive. The final combined system produced the best overall results in the notebook.
-
-This notebook ranked **top 1 in my school submission** for the project.
